@@ -25,9 +25,9 @@ jobs:
           aws-region: ${{ env.REGION }}
 
       - name: Install Dependencies
-          run: |
-            node --version
-            npm ci --production
+        run: |
+          node --version
+          npm ci --production
 
       - name: Build Static Website
         run: npm run build
@@ -41,5 +41,3 @@ jobs:
           aws cloudfront create-invalidation \
             --distribution-id ${{ env.DIST_ID }}
             --paths "/*"
-
-
