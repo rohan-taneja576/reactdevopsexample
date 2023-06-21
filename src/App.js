@@ -12,6 +12,7 @@ function App() {
         }}
       >
         <Link to="/invoices">Invoices</Link>
+        <br />
         <Link to="/expenses">Expenses</Link>
       </nav>
     </div>
