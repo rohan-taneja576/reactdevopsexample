@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <h1>BookKeeper</h1>
+      <h1>BookKeeper v1!</h1>
       <nav
         style={{
           borderBottom: "solid 1px",
